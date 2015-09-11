@@ -64,6 +64,7 @@ void setup() {
       delay(100);
     }
   }
+  Serial.println(F("OPC server started"));
 }
 
 void loop() {
