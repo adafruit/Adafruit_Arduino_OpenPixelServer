@@ -4,6 +4,7 @@
 #include "Adafruit_Arduino_OpenPixelServer.h"
 #include "Adafruit_ESP8266_OpenPixelServer.h"
 
+
 // Set your WiFi SSID and password below:
 const char* ssid = "...your WiFi SSID...";
 const char* password = "...your WiFi password...";
