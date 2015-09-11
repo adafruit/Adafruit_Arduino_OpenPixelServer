@@ -16,7 +16,7 @@
   #define DEBUG_PRINTLN(...) { }
 #endif
 
-// Make the base OpenPixelServer class templated on a server and class type.
+// Make the base OpenPixelServer class templated on a server and client type.
 // Normally we could just work with generic Service and Client pointers, but
 // the generic Server class doesn't implement the actual server interface.
 // It appears this part of the Arduino core is somewhat unimplemented, see:
